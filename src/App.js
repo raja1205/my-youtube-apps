@@ -11,6 +11,7 @@ class App extends Component {
 		selectedVideo: null
 		}
 
+//life cycle method
 	componentDidMount = () => {
 			this.onFormSubmit("Spiderman");
 		}
